@@ -1,6 +1,7 @@
 body > header {
     color: white;
     background-color: blue;
+    padding: 20px;
 }
 
 
@@ -25,16 +26,11 @@ body > main > article > main {
     padding: 40px;
 }
 
-body > main > header > article {
-display: flex;
-/*  */
-justify-content: flex-end;
-}
-
 body > main > header{
 display: flex;
 flex-direction: row; 
 }
+
 body > main > header > article{
     /* display: flex; */
     flex-direction: column;
@@ -45,4 +41,14 @@ body > main > header > aside{
     display: flex;
     flex-direction: column;
     padding: 30px;
+}
+body > main > header > article > section{
+    display: flex;
+    flex-direction: row;
+}
+
+body > main > header > article > section > aside {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
