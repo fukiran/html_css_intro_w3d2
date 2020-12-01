@@ -1,0 +1,24 @@
+body > header {
+    color: white;
+    background-color: blue;
+}
+
+
+body > header > nav > ul  > li > a {
+    color: white;
+    padding: 20px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+}
+
+
+body > main > article > main {
+    text-align: center;
+    padding: 40px;
+}
+
